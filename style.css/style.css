@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+    background-color: tan;
+}
 .bc_img1 {
   width: 100%;
   height: 500px;
@@ -19,4 +22,26 @@
   left: 40%;
   transform: translate(-50%, -50%);
   z-index: 1;
+}
+.left_text {
+    display: flex; /* Используйте flex для размещения элементов рядом */
+    align-items: center; /* Выравнивание по вертикали */
+  }
+  
+  .text-content {
+    flex: 1; 
+    padding: 10px; 
+  }
+  
+  .has {
+    width: 50%;
+    height: 300px;
+  }
+  
+.foris{
+    width: 25%;
+    height: 500px;
+}
+.img4{
+    display: flex;
 }
