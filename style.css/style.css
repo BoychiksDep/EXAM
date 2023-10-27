@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bc_img1{
+    width: 100vh;
+    height: 500px;
+    position: absolute;
+    z-index: 0;
+}
