@@ -69,4 +69,12 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+footer{
+    background-color: gray;
+}
+header{
+    background-color: gray;
+}
+.si{
+    font-size: 40px;
+}
