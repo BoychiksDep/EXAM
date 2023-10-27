@@ -2,8 +2,8 @@
   margin: 0px;
   padding: 0px;
 }
-body{
-    background-color: tan;
+body {
+  background-color: tan;
 }
 .bc_img1 {
   width: 100%;
@@ -11,8 +11,8 @@ body{
   position: relative;
 }
 
-.sif{
-    font-size: 30px;
+.sif {
+  font-size: 30px;
 }
 
 .Text_center {
@@ -24,24 +24,49 @@ body{
   z-index: 1;
 }
 .left_text {
-    display: flex; /* Используйте flex для размещения элементов рядом */
-    align-items: center; /* Выравнивание по вертикали */
-  }
-  
-  .text-content {
-    flex: 1; 
-    padding: 10px; 
-  }
-  
-  .has {
-    width: 50%;
-    height: 300px;
-  }
-  
-.foris{
-    width: 25%;
-    height: 500px;
+  display: flex; /* Используйте flex для размещения элементов рядом */
+  align-items: center; /* Выравнивание по вертикали */
 }
-.img4{
+
+.text-content {
+  flex: 1;
+  padding: 10px;
+}
+
+.has {
+  width: 50%;
+  height: 300px;
+}
+
+.foris {
+  width: 25%;
+  height: 350px;
+}
+.img4 {
+  display: flex;
+}
+.ads__card {
+  display: flex;
+  width: 100%;
+}
+.card1 {
+  background-color: rgb(37, 190, 37);
+  border: 2px solid black;
+  width: 50%;
+  height: 200px;
+}
+.card2 {
+  background-color: rgb(48, 50, 48);
+  border: 2px solid black;
+  color: gray;
+  width: 50%;
+  height: 200px;
+
+}
+.card1, .card2 {
     display: flex;
-}
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
